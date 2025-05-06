@@ -6,17 +6,11 @@
 /*   By: lenakach <lenakach@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/30 10:30:54 by lenakach          #+#    #+#             */
-/*   Updated: 2025/05/03 18:54:10 by lenakach         ###   ########.fr       */
+/*   Updated: 2025/05/06 13:55:27 by lenakach         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <stddef.h>
-
-size_t	ft_strlen(const char *str);
-char	*ft_strdup(const char *s);
-void	*ft_calloc(size_t nmemb, size_t size);
+#include "libft.h"
 
 char	*ft_substr(const char *s, unsigned int start, size_t len)
 {

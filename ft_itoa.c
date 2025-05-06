@@ -6,13 +6,13 @@
 /*   By: lenakach <lenakach@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/01 12:09:13 by lenakach          #+#    #+#             */
-/*   Updated: 2025/05/03 19:03:19 by lenakach         ###   ########.fr       */
+/*   Updated: 2025/05/06 13:52:17 by lenakach         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*pre_conv(int len)
+static char	*pre_conv(int len)
 {
 	char	*tmp;
 
@@ -23,7 +23,7 @@ char	*pre_conv(int len)
 	return (tmp);
 }
 
-int	count_int(long n)
+static int	count_int(long n)
 {
 	int	count;
 

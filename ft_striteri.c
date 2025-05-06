@@ -6,17 +6,17 @@
 /*   By: lenakach <lenakach@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/01 15:45:57 by lenakach          #+#    #+#             */
-/*   Updated: 2025/05/03 18:53:40 by lenakach         ###   ########.fr       */
+/*   Updated: 2025/05/06 13:54:37 by lenakach         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_test(unsigned int i, char *s)
+/*void	ft_test(unsigned int i, char *s)
 {
 	if (i % 2 == 0 && (*s >= 'A' && *s <= 'Z'))
 		*s = *s + 32;
-}
+}*/
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {

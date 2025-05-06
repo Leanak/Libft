@@ -6,13 +6,13 @@
 /*   By: lenakach <lenakach@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/30 12:49:51 by lenakach          #+#    #+#             */
-/*   Updated: 2025/05/04 16:50:32 by lenakach         ###   ########.fr       */
+/*   Updated: 2025/05/06 13:55:12 by lenakach         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	to_trim(const char *str, char c)
+static int	to_trim(const char *str, char c)
 {
 	int	i;
 
@@ -26,7 +26,7 @@ int	to_trim(const char *str, char c)
 	return (0);
 }
 
-char	*new_str(const char *s1, size_t start, size_t len)
+static char	*new_str(const char *s1, size_t start, size_t len)
 {
 	char	*str;
 	size_t	i;

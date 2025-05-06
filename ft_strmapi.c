@@ -6,20 +6,18 @@
 /*   By: lenakach <lenakach@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/01 14:35:38 by lenakach          #+#    #+#             */
-/*   Updated: 2025/05/03 18:53:52 by lenakach         ###   ########.fr       */
+/*   Updated: 2025/05/06 13:54:54 by lenakach         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlen(const char *s);
-
-char	f_test(unsigned int i, char c)
+/*char	f_test(unsigned int i, char c)
 {
 	if (i % 2 == 0)
 		c = c + 32;
 	return (c);
-}
+}*/
 
 char	*ft_strmapi(const char *s, char (*f)(unsigned int, char))
 {

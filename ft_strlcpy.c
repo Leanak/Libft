@@ -6,13 +6,11 @@
 /*   By: lenakach <lenakach@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/29 04:52:46 by lenakach          #+#    #+#             */
-/*   Updated: 2025/04/30 13:47:33 by lenakach         ###   ########.fr       */
+/*   Updated: 2025/05/06 13:54:44 by lenakach         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-size_t	ft_strlen(const char *str);
 
 size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 {
