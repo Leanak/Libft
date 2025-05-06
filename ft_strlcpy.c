@@ -6,7 +6,7 @@
 /*   By: lenakach <lenakach@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/29 04:52:46 by lenakach          #+#    #+#             */
-/*   Updated: 2025/05/06 13:54:44 by lenakach         ###   ########.fr       */
+/*   Updated: 2025/05/07 01:18:34 by lenakach         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,6 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 		}
 		dest[i] = '\0';
 	}
-	printf("%s\n", dest);
 	return (len);
 }
 

@@ -6,7 +6,7 @@
 /*   By: lenakach <lenakach@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/05 21:18:10 by lenakach          #+#    #+#             */
-/*   Updated: 2025/05/06 13:34:28 by lenakach         ###   ########.fr       */
+/*   Updated: 2025/05/07 01:19:54 by lenakach         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,15 +34,18 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
 	t_list	*new_list;
 	t_list	*new_elem;
+	void	*new_content;
 
 	new_list = NULL;
 	if (!lst || !f || !del)
 		return (NULL);
 	while (lst)
 	{
-		new_elem = ft_lstnew(f(lst->content));
+		new_content = f(lst->content);
+		new_elem = ft_lstnew(new_content);
 		if (!new_elem)
 		{
+			del(new_content);
 			ft_lstclear(&new_list, del);
 			return (NULL);
 		}
