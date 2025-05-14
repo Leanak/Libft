@@ -6,7 +6,7 @@
 /*   By: lenakach <lenakach@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/01 17:26:03 by lenakach          #+#    #+#             */
-/*   Updated: 2025/05/04 16:45:44 by lenakach         ###   ########.fr       */
+/*   Updated: 2025/05/13 18:35:55 by lenakach         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ void	ft_putnbr_fd(int n, int fd)
 {
 	int	n;
 
-	n = 0;
-	ft_putnbr_fd(n, 2);
+	n = 258;
+	ft_putnbr_fd(n, 1);
 	return (0);
 }*/

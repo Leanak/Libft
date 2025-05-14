@@ -6,7 +6,7 @@
 /*   By: lenakach <lenakach@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/29 17:46:39 by lenakach          #+#    #+#             */
-/*   Updated: 2025/04/30 12:25:04 by lenakach         ###   ########.fr       */
+/*   Updated: 2025/05/14 13:56:22 by lenakach         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,8 +27,6 @@ char	*ft_strrchr(const char *s, int c)
 			return ((char *)(&s[i]));
 		i--;
 	}
-	if (s[i] == cc)
-		return ((char *)(&s[i]));
 	return (NULL);
 }
 /*int	main(void)
