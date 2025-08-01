@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: lenakach <lenakach@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/04/30 13:49:53 by lenakach          #+#    #+#             */
-/*   Updated: 2025/05/13 18:34:25 by lenakach         ###   ########.fr       */
+/*   Created: 2025/08/01 12:44:14 by lenakach          #+#    #+#             */
+/*   Updated: 2025/08/01 12:44:33 by lenakach         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -98,7 +98,7 @@ char	**ft_split(const char *s, char c)
 	return (arr);
 }
 
-int	main(void)
+/* int	main(void)
 {
 	const char	*s = "lorem ipsum";
 	char		c;
@@ -115,4 +115,4 @@ int	main(void)
 		i++;
 	}
 	return (0);
-}
+} */
